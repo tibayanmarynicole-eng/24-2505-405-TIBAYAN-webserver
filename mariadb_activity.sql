@@ -2,15 +2,15 @@ CREATE DATABASE school;
 SHOW DATABASES;
 USE school;
 CREATE TABLE students (
-    -> id INT AUTO_INCREMENT PRIMARY KEY,
-    -> name VARCHAR(100)
-    -> course VARCHAR(100)^C
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100)
+course VARCHAR(100)^C
 CREATE TABLE students (
-    -> id INT AUTO_INCREMENT PRIMARY KEY,
-    -> name VARCHAR(100),
-    -> course VARCHAR(100),
-    -> year_level INT
-    -> );
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100),
+course VARCHAR(100),
+year_level INT
+);
 SHOW TABLES;
 DESCRIBE students;
 INSERT INTO students (name, course, year_level)

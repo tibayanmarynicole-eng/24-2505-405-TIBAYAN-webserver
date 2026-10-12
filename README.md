@@ -8,6 +8,16 @@ Student ID: 24-2505-405
 
 Course/Section: BS Information Technology (Web Technology) CITCS 3H - A
 
+Database
+school
+
+Tables
+students
+
+courses
+
+enrollments
+
 Web Server: Python HTTP Server
 
 Port: 8000
